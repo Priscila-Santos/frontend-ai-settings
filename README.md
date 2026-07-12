@@ -50,5 +50,3 @@ This branch demonstrates the outcome of using a **spec-driven AI prompt** with C
 - This branch emphasizes **spec-driven development**: clear requirements lead to structured code, validations, and automated tests.  
 - Compared to the vague prompt branch, this version is closer to production-ready quality.  
 - Additional improvements (e.g., TypeScript, advanced validation libraries, CI integration) can be added as extensions.
-
-Would you like me to also prepare a **short comparison section** you can add at the bottom of both READMEs, so anyone browsing the repo immediately sees the contrast between the two approaches?
