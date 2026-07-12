@@ -1,0 +1,79 @@
+.card {
+  width: min(100%, 480px);
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+h1 {
+  margin: 0 0 0.4rem;
+  font-size: 1.7rem;
+}
+
+.subtitle {
+  margin: 0 0 1.25rem;
+  color: #64748b;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.field,
+.checkboxField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.checkboxField {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 500;
+}
+
+input,
+select,
+button {
+  font: inherit;
+  padding: 0.75rem 0.9rem;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+}
+
+button {
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+  border: none;
+  margin-top: 0.3rem;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.error {
+  color: #dc2626;
+  font-size: 0.85rem;
+}
+
+.success {
+  margin-top: 1rem;
+  color: #15803d;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .card {
+    margin: 1rem;
+    padding: 1.25rem;
+  }
+}
